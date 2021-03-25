@@ -28,6 +28,7 @@ public class Ex8 {
 	default:
 		System.out.println("what?");
 		
+		System.out.println("¿Ï·á");
 	}
   }
 
