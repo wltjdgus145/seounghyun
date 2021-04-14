@@ -1,35 +1,43 @@
-import java.util.Scanner;
+
 public class Ex8 {
 
 	public static void main(String[] args) {
-
-		int A,B,C,D;
-		System.out.println("¾ó¸¶³ª ÀßÇßÀ»±î¿ä?? ==>>");	
 		
-	Scanner scn = new Scanner(System.in);
-
-	A =scn.nextInt();
-	
-	switch(A) {
 		
-	case 'A' :
-		System.out.println("Best!!");
-	
-			break;
+		int a =3;
+		
+		while( a<=8 ) {
+			int k =a;
 			
-	case 'B' :
-		System.out.println("good!");
-		break;
-	case 'C' : 
-		System.out.println("run!");
-		break;
-	case 'D':
-			System.out.println("slowly~");
-	default:
-		System.out.println("what?");
+			for(int i =1; i<=9; i++) {
+				
+				if((k==3) || (k ==5)) {
+					System.out.println("<3´Ü>"+k+"*"+i+"="+i*k);
+					
+					
+				}else {
+					System.out.println(k+"*"+i+"="+i*k);
+				
+				}
+				
+				
+			}
+			
+			
+			a++;
+		}
 		
-		System.out.println("¶ö·Î ¯˜!");
+		System.out.println("EZ");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
-  }
 
 }
